@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib import admin
 from django.db.models.signals import post_save
 from taggit.managers import TaggableManager
-from shared.utils import *
+#from shared.utils import *
 
 class UserProfile(Model):
     avatar = ImageField("Profile Pic", upload_to="avatar", blank=True, null=True)
